@@ -1,3 +1,5 @@
+# coding:utf-8
+
 '''
 编写Web App骨架
 '''
