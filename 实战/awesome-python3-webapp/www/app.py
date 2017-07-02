@@ -10,7 +10,7 @@ from aiohttp import web
 
 #制作响应函数
 async def index(request):
-    return web.Response(body=b'<h1>I&apos;m Henry</h1>',content_type='text/html')
+    return web.Response(body=b'<h1>I&apos;m Henry,hello.</h1>',content_type='text/html')
 
 
 async def init(loop):#Web app服务器初始化
